@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Site de Viagens </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Super Viagens</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="#">Início</a>
+        <a class="nav-link" href="#">Destinos</a>
+        <a class="nav-link" href="#">Contatos</a>
+      </div>
+    </div>
+  </div>
+ </nav>
+
+
+    <main class = "container mt-5">
+        <h1 class = "text-center text-dark"> Unraveling the World </h1>
+
+        <!-- DESTINOS -->
+        <div class = "container mt-5">
+            <!-- Linha -->
+            <div class = "row">
+                <!-- Colunas -->
+                <div class = "col">
+                    <div class = "card text-center">
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/500px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg" alt = "Torre Eiffel">
+                        <h5 class = "card-title"> Paris </h5>
+                        <p class = "card-text"> The City of Romance and Love </p>
+                        <a href = "" class = "btn btn-danger"> Button </a>
+                    </div>
+                </div>
+                <div class = "col">
+                    <div class = "card text-center">
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg" alt = "Muralha da China">
+                        <h5 class = "card-title"> The Great Wall of China </h5>
+                        <p class = "card-text"> A history spanning over a thousand years  </p>
+                        <a href = "" class = "btn btn-danger"> Button </a>
+                    </div>
+                </div>
+                <div class = "col">
+                    <div class = "card text-center">
+                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/960px-Christ_the_Redeemer_-_Cristo_Redentor.jpg" alt = "Cristo Redentor">
+                        <h5 class = "card-title"> Christ the Redeemer </h5>
+                        <p class = "card-text"> For those who exalt themselves will be humbled, and those who humble themselves will be exalted </p>
+                        <a href = "" class = "btn btn-danger"> Button </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <section class = "container mt-5">
+        <form class = "card p-4 shadow">
+            <h4> Planeje sua Viagem </h4>
+
+            <div class = "col">
+            <label> Origem </label>
+            <input type = "text" class = "form-control" placeholder = "Ex: São Paulo">
+            </div>
+
+            <div class = "col">
+            <label> Destino </label>
+            <input type = "text" class = "form-control">
+            </div>
+
+            <div class = "col">
+            <label> Quantidade de Dias </label>
+            <input type = "number" class = "form-control">
+            </div>
+
+            <div class = "col">
+                <button class = "btn btn-success"> Procurar </button>
+
+            </div>
+
+        </form>
+    </section>
+
+
+</body>
+</html>
