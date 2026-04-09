@@ -1,1 +1,0 @@
-let months = 7;
